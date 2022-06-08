@@ -25,7 +25,7 @@ jobs:
       run: python -m unittest --verbose --failfast
   
   merge:
-    if: github.actor == 'automate6500' || github.actor == 'octocat'
+    if: github.actor == 'khanabid20' || github.actor == 'octocat'
     needs: [lint]
     runs-on: ubuntu-latest
     steps:
